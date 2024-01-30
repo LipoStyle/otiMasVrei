@@ -1,0 +1,71 @@
+.header{
+  margin: .5rem auto;
+  padding: .6rem 1.2rem;
+  width: 80%;
+
+  border-bottom: .1rem solid black;
+
+  /* flex possitioning section */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-title h1{
+  font-size: 1.7rem;
+  font-style: italic;
+}
+.navbar-and-socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.menu-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .7rem;
+
+  list-style-type: none;
+}
+.menu-items li{
+  font-style: italic;
+  color: #000000;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color .1s ease-in;
+}
+.menu-items li:hover{
+  color: rgb(163, 108, 108);
+}
+.seperator{
+  width: 18px;
+  height: 2px;
+  background-color: black;
+}
+/* header social media section */
+.social-icons {
+  display: flex;
+}
+.icon {
+  margin: 0 10px; /* Adjust the spacing between icons as needed */
+  color: #333; /* Set the icon color */
+  /* text-decoration: none; */
+}
+.icon:nth-child(1):hover {
+  color: #ff0000; /* Change the color on hover */
+}
+.icon:nth-child(2):hover {
+  color: #007bff; /* Change the color on hover */
+}
+.icon:nth-child(3):hover {
+  color: #ff00dd; /* Change the color on hover */
+}
+.icon:nth-child(4):hover {
+  color: rgb(9, 134, 61); /* Change the color on hover */
+}
+
+@media (max-width: 910px) {
+  
+}

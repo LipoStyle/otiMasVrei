@@ -1,0 +1,9 @@
+.episode{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.image-of-episode img{
+  width: 260px;
+  height: 260px;
+}
